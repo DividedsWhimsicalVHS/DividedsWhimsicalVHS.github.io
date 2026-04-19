@@ -1,0 +1,119 @@
+body {
+    font-family: font;
+    cursor: url("src/cursor.png") 6 6, auto;
+}
+
+@font-face {
+    font-family: font;
+    src: url(src/font.ttf);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#mainHolder {
+    background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+    padding: 2rem;
+}
+
+#examples {
+    background-image: linear-gradient(indigo, purple, violet, pink, lightpink);
+}
+
+#examplesTitleHolder {
+    padding: 1rem;
+    color: orange;
+    -webkit-text-stroke: 2px red;
+}
+
+.title { font-size: xx-large; }
+
+#mainTitle {
+    color: cyan;
+    -webkit-text-stroke: 2px mediumaquamarine;
+}
+
+hr {
+    border: 4px ridge red;
+}
+
+#discordLogo { width: 3rem; }
+
+.text-center { text-align: center; }
+
+#discordHolder {
+    background-color: violet;
+    width: fit-content;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 0.2rem;
+    box-shadow: 8px 8px indigo;
+}
+
+.gif {
+    width: 9rem;
+    position: relative;
+}
+
+#emoji2 {
+    left: 40rem;
+}
+
+#vhsImg {
+    width: 15rem;
+    position: relative;
+    top: -8rem;
+}
+
+.exampleGif {
+    margin: 0.5rem;
+    width: 12rem;
+}
+
+#pricingText {
+    color: white;
+    -webkit-text-stroke: 2px navy;
+}
+
+#pricing {
+    color: white;
+    padding: 1rem;
+    background-image: linear-gradient(navy, darkblue, blue, dodgerblue);
+}
+
+#examples2 {
+    padding: 1rem;
+    text-align: center;
+    background-image: linear-gradient(orangered, darkorange, orange, gold, yellow);
+}
+
+#examples2Title {
+    color: tomato;
+    -webkit-text-stroke: 2px black;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+    background-color: coral;
+    padding: 5px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    cursor: url("src/pointer.png") 6 6, auto;
+    position: relative;
+}
+
+a:hover { top: -2px; }
+
+.moreGifs {
+    margin: 1rem;
+    width: 25rem;
+}
+
+#credits {
+    text-align: center;
+    padding: 0.5rem;
+    background-color: dimgray;
+}
